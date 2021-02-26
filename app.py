@@ -30,8 +30,8 @@ def home():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/<start><br/>"
-        f"/api/v1.0/<start>/<end><br/>"
+        f"/api/v1.0/start_date, where start_date = your input of date in yyyy-mm-dd format<br/>"
+        f"/api/v1.0/start_date/end_date, where both dates are your inputs in yyyy-mm-dd format<br/>"
 
     )
 
